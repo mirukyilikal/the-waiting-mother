@@ -144,7 +144,9 @@ The project includes:
 Some parts of the production workflow are not yet fully automated.
 
 - The complete production workflow is not yet controlled by one command.
-- The current storyboard validator checks JSON structure and shot timing but does not yet implement full JSON Schema validation.
+
+- The validator checks the storyboard against `schema/storyboard.schema.json` and verifies continuous shot timing. Additional schema constraints may be added in future versions.
+
 - Historical model-call metadata, including exact model versions, parameters, seeds, latency, and costs, was not fully recorded.
 - Automated test coverage is not yet complete.
 - A verified per-shot selective regeneration system has not yet been implemented.
@@ -165,7 +167,7 @@ Before public distribution, the applicable licences and usage permissions for ge
 
 Future development will focus on:
 
-- Implementing complete JSON Schema validation.
+- Expanding JSON Schema validation to cover additional storyboard constraints.
 - Creating a single-command production workflow.
 - Adding per-shot caching and selective regeneration.
 - Recording model-call metadata automatically.
