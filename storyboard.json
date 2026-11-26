@@ -1,3 +1,4 @@
+
 {
   "project": {
     "title": "The Waiting Mother",
@@ -170,7 +171,7 @@
       "audio": {
         "speaker": "mother",
         "amharic": "ልጄ፣ የትም ብትሄጂ፣ ወደ ቤት ስትመለሺ በፍቅር የሚቀበልሽ ሰው እንዳለ እንድታውቂ ነው።",
-        "english_subtitle": "My daughter, wherever you go, I want you to know that someone will welcome you home with love."
+        "english_subtitle": "My daughter, wherever life takes you, remember that you will always be welcomed home with love."
       },
       "continuity": "Mother's appearance must match S02, S04, and S06. Avoid exaggerated lip movement if dialogue is added in post.",
       "generation_status": "planned"
