@@ -1,129 +1,43 @@
-# Design Document — The Waiting Mother
+## 6. Audience Testing and Feedback
 
-## 1. Project Overview
+### 6.1 Story Understanding and Initial Feedback
 
-**Title:** The Waiting Mother
+The film was reviewed against its intended storytelling goals, with particular attention to the clarity of the story, visual consistency, background music, and narration quality.
 
-**Format:** AI-assisted short film
+The following three observations were identified as areas for improvement:
 
-**Duration:** 80 seconds before the end card
+| Viewer | Observation |
+|---|---|
+| Person 1 | The film is good, especially the story. The emotional message is clear and meaningful. However, the background music is not consistent throughout the video. |
+| Person 2 | Some scenes lack visual continuity. In particular, when the girl meets her mother, the girl appears to move backward instead of naturally approaching her mother. |
+| Person 3 | The narration does not sound sufficiently natural or fluent. The voice does not fully sound like that of a native Amharic speaker. |
 
-**Language:** Amharic narration with English subtitles
+### 6.2 Analysis of Feedback
 
-**Setting:** A fictional rural Ethiopian village
+These observations highlight three important aspects of the film that could be improved.
 
-**Aspect ratios:** 16:9 horizontal and 9:16 vertical
+1. **Background music consistency:** The background music should maintain a more consistent volume throughout the film. Smooth transitions and appropriate balancing between the narration and music would improve the overall listening experience.
 
-## 2. Goal and Intended Audience
+2. **Visual and character movement consistency:** Some AI-generated scenes do not show natural character movement. The meeting between the mother and daughter is an example, as the girl's backward movement reduces the realism of the emotional moment. Better prompts and more careful selection of generated clips could improve this scene.
 
-The goal of this film is to tell a simple emotional story about a mother's love, patience, and care for her daughter.
+3. **Narration quality:** Although the narration communicates the story in Amharic, its pronunciation and delivery could sound more natural. A more fluent and authentic Amharic voice would help communicate the emotions of the story more effectively.
 
-The film is intended for:
+### 6.3 Design Improvements Identified
 
-- Ethiopian families and communities.
-- Young people and students.
-- Viewers interested in family relationships and cultural storytelling.
-- International audiences interested in short films about everyday human experiences.
+Based on these observations, the following improvements were identified for the current design and future versions:
 
-The story uses a familiar experience—waiting for a child to return home—to communicate a message that can be understood across cultures.
+- Improve background music continuity and balance its volume more carefully beneath the narration.
+- Refine video-generation prompts to encourage natural movement, especially when the mother and daughter meet.
+- Review generated clips before including them in the final video to identify unnatural movements and continuity problems.
+- Improve the Amharic narration through more natural pronunciation, expressive delivery, and, if possible, a native-speaker recording.
+- Continue reviewing subtitle timing and synchronization with the narration.
 
-## 3. Story and Creative Intent
+### 6.4 Visual and Audio Experience Evaluation
 
-The film follows a mother who waits outside her home every afternoon for her daughter to return from school.
+A further evaluation is planned to examine the overall viewing experience. It will focus on visual quality, character consistency, scene transitions, narration clarity, subtitle readability, and background music.
 
-When the daughter arrives, she asks why her mother waits outside every day. The mother explains that she wants her daughter to always know that someone will welcome her home with love.
+This evaluation will help identify additional improvements and determine whether the film communicates its intended emotional message effectively.
 
-The central message is:
+### 6.5 Limitations
 
-**A mother's love is sometimes found in the simplest things: waiting for her child to come home.**
-
-## 4. Visual Design Decisions
-
-The visual direction uses a realistic cinematic style.
-
-Important design choices include:
-
-- A fictional rural Ethiopian village setting.
-- A mother wearing traditional-style clothing.
-- A daughter wearing a school uniform and carrying a schoolbag.
-- Warm, natural lighting.
-- Consistent characters and surroundings across scenes.
-- Slow camera movements to maintain an emotional atmosphere.
-
-AI-generated images and video clips were used as production materials. Some short clips were extended using animated still images.
-
-## 5. Audio and Subtitle Design
-
-The film uses synthetic Amharic narration to tell the story in its chosen language.
-
-English subtitles were included to make the story accessible to viewers who do not understand Amharic.
-
-Background music was added at a reduced fixed volume with fades. It uses third-party Pixabay music, not an original composition.
-
-The narration and music were checked during final video review.
-
-## 6. Audience Testing Plan
-
-Two rounds of audience testing are required to evaluate whether the film communicates its intended message.
-
-The actual participants and feedback must be recorded after the tests. No participant responses are invented in this document.
-
-### Test 1: Story Understanding
-
-**Goal:** Determine whether viewers understand the story and its emotional message.
-
-**Participants:** Three or more viewers.
-
-**Questions:**
-
-1. What do you think the film is about?
-2. What message does the mother's response communicate?
-3. Which scene was most meaningful to you?
-4. Was any part of the story confusing?
-
-**Results:** To be completed after collecting actual feedback.
-
-**Changes based on feedback:** To be completed after reviewing the responses.
-
-### Test 2: Visual and Audio Experience
-
-**Goal:** Evaluate the clarity and quality of the film's visuals, narration, subtitles, and music.
-
-**Participants:** Three or more viewers. A different group is preferable.
-
-**Questions:**
-
-1. Were the characters and setting visually consistent?
-2. Was the Amharic narration clear and understandable?
-3. Were the English subtitles readable and correctly timed?
-4. Was the background music appropriate?
-5. What would you improve?
-
-**Results:** To be completed after collecting actual feedback.
-
-**Changes based on feedback:** To be completed after reviewing the responses.
-
-## 7. Design Limitations
-
-The project has several limitations:
-
-- Some scenes use animated still images rather than fully generated video.
-- Character consistency depends on the generated assets.
-- The narration is synthetic.
-- The music is third-party licensed material rather than an original score.
-- Structured audience testing has not yet been documented.
-
-## 8. Future Improvements
-
-Future versions could include:
-
-- More consistent character references across generated scenes.
-- An original musical score with automated narration ducking.
-- More detailed audience testing.
-- Improved scene transitions.
-- Additional subtitle languages.
-- More natural character movement.
-
-## 9. Conclusion
-
-The design of The Waiting Mother prioritizes emotional clarity, cultural context, and a simple universal message. The production choices aim to make a short story about everyday family love understandable and meaningful to different audiences.
+The observations above are preliminary design-review feedback and should not be treated as the results of a completed formal audience study. A structured evaluation with at least three actual viewers is still needed to verify these observations and collect further recommendations.
