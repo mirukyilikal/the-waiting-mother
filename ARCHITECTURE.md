@@ -43,15 +43,20 @@ The storyboard helps maintain consistency between the visual scenes and narratio
 
 ### 4.1 Storyboard Validator
 
-File: `src/validate_storyboard.py`
+### 4.1 Storyboard Validator
+
+Files:
+- `src/validate_storyboard.py`
+- `schema/storyboard.schema.json`
 
 Responsibilities:
 
-- Load the storyboard JSON.
-- Check JSON readability.
-- Verify that shots exist.
-- Check positive shot durations.
+- Load and parse the storyboard JSON.
+- Validate the storyboard against the JSON Schema using `jsonschema`.
+- Check required storyboard fields and shot identifiers.
+- Verify positive shot durations.
 - Verify continuous timing without gaps or overlaps.
+- Reject duplicate shot identifiers.
 
 ### 4.2 Visual Asset Generation
 
@@ -161,7 +166,7 @@ FFmpeg provides a reproducible way to normalize video clips, combine media, mix 
 ## 8. Current Architectural Limitations
 
 - The complete production pipeline is not yet orchestrated by one command.
-- Storyboard validation does not yet use a complete JSON Schema.
+- JSON Schema validation is implemented; additional schema constraints may be added in future versions.
 - Per-shot selective regeneration is not yet fully implemented and verified.
 - Historical model-call metadata is incomplete.
 - End-card generation and portrait export remain separate processing steps.
