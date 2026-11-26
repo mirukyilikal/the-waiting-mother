@@ -1,0 +1,194 @@
+{
+  "project": {
+    "title": "The Waiting Mother",
+    "title_amharic": "እናት በመጠባበቅ ላይ",
+    "version": "0.1.0",
+    "status": "creative_draft",
+    "target_duration_seconds": 80,
+    "language": "am",
+    "subtitle_language": "en",
+    "aspect_ratios": [
+      "9:16",
+      "16:9"
+    ],
+    "visual_style": "realistic cinematic film",
+    "setting": "fictional rural Ethiopian village",
+    "characters": [
+      "fictional mother",
+      "fictional young daughter"
+    ]
+  },
+  "creative_intent": {
+    "logline": "A rural Ethiopian mother waits outside her home each afternoon for her daughter to return from school, revealing the quiet depth of a mother's love.",
+    "core_message": "A mother's love is sometimes found in the simplest things: waiting for her child to come home.",
+    "audience": [
+      "Ethiopian young people",
+      "Ethiopian families"
+    ],
+    "intended_emotions": [
+      "reflection",
+      "nostalgia",
+      "gratitude",
+      "emotional connection"
+    ]
+  },
+  "continuity_guide": {
+    "mother": "Fictional adult Ethiopian mother; consistent face, hairstyle, age, and traditional clothing across all shots.",
+    "daughter": "Fictional young Ethiopian schoolgirl; consistent face, age, school clothing, and schoolbag across all shots.",
+    "environment": "One rural Ethiopian home and one village road; keep spatial layout consistent.",
+    "lighting": "Natural warm late-afternoon light, with gradual continuity across the film.",
+    "style": "Realistic cinematic photography, restrained performances, natural expressions, no caricature or poverty stereotypes."
+  },
+  "shots": [
+    {
+      "shot_id": "S01",
+      "start_seconds": 0,
+      "duration_seconds": 7,
+      "title": "The village",
+      "visual_description": "A peaceful rural Ethiopian village in late afternoon. Establish the traditional home and the road outside it. The environment feels lived-in, dignified, and welcoming.",
+      "camera": "Wide establishing shot; very slow gentle push-in.",
+      "audio": {
+        "speaker": "narrator",
+        "amharic": "በአንድ የገጠር መንደር፣ በየቀኑ ከሰዓት በኋላ አንዲት እናት ከቤቷ ውጭ ትቆማለች።",
+        "english_subtitle": "In a rural village, every afternoon, a mother stands outside her home."
+      },
+      "continuity": "Introduce the single village home and the road; preserve their geography in later shots.",
+      "generation_status": "planned"
+    },
+    {
+      "shot_id": "S02",
+      "start_seconds": 7,
+      "duration_seconds": 8,
+      "title": "The mother waits",
+      "visual_description": "The same mother stands outside her home, looking down the village road. Her posture is patient and familiar, not distressed.",
+      "camera": "Medium-wide shot at eye level; subtle natural movement.",
+      "audio": {
+        "speaker": "narrator",
+        "amharic": "ልጇ ከትምህርት ቤት እስክትመለስ ትጠብቃለች።",
+        "english_subtitle": "She waits for her daughter to return from school."
+      },
+      "continuity": "Use the approved mother character reference, same clothing, hairstyle, home, and afternoon lighting.",
+      "generation_status": "planned"
+    },
+    {
+      "shot_id": "S03",
+      "start_seconds": 15,
+      "duration_seconds": 8,
+      "title": "Time passes",
+      "visual_description": "The quiet road stretches into the distance. The mother remains near the home, still watching for her daughter.",
+      "camera": "Over-the-shoulder view from behind the mother toward the road.",
+      "audio": {
+        "speaker": "narrator",
+        "amharic": "ጊዜው ያልፋል። መንገዱም ጸጥ ይላል።",
+        "english_subtitle": "Time passes. The road grows quiet."
+      },
+      "continuity": "Keep the mother in the same position relative to the doorway and road.",
+      "generation_status": "planned"
+    },
+    {
+      "shot_id": "S04",
+      "start_seconds": 23,
+      "duration_seconds": 8,
+      "title": "Still watching",
+      "visual_description": "A closer view of the mother's thoughtful face as she looks down the road, waiting with hope.",
+      "camera": "Gentle close-up; natural expression, no exaggerated sadness.",
+      "audio": {
+        "speaker": "narrator",
+        "amharic": "እሷ ግን ዓይኗን ከመንገዱ ላይ አታነሳም። ልጇን በሩቅ እስክታያት ድረስ በተስፋ ትጠብቃለች።",
+        "english_subtitle": "But she never takes her eyes off the road. She waits with hope until she can see her daughter in the distance."
+      },
+      "continuity": "Mother's face, clothing, and lighting must match S02.",
+      "generation_status": "planned"
+    },
+    {
+      "shot_id": "S05",
+      "start_seconds": 31,
+      "duration_seconds": 8,
+      "title": "A daughter appears",
+      "visual_description": "A young Ethiopian schoolgirl appears far down the same road, walking toward the home with a schoolbag over her shoulder.",
+      "camera": "Long shot down the road; slow, restrained forward movement.",
+      "audio": {
+        "speaker": "narrator",
+        "amharic": "ከሩቅ አንዲት ትንሽ ልጅ በትከሻዋ ላይ ቦርሳ ይዛ ትታያለች።",
+        "english_subtitle": "Far away, a young girl appears, carrying a schoolbag over her shoulder."
+      },
+      "continuity": "Use the approved daughter reference and maintain the same road direction and schoolbag.",
+      "generation_status": "planned"
+    },
+    {
+      "shot_id": "S06",
+      "start_seconds": 39,
+      "duration_seconds": 8,
+      "title": "The mother's smile",
+      "visual_description": "The mother recognizes her daughter in the distance. Her expression naturally brightens into a warm smile.",
+      "camera": "Medium close-up; slight push-in on the mother's expression.",
+      "audio": {
+        "speaker": "narrator",
+        "amharic": "እናቷም ልጇን ስታውቅ ፊቷ በፈገግታ ይሞላል።",
+        "english_subtitle": "When the mother recognizes her daughter, her face fills with a smile."
+      },
+      "continuity": "Keep the mother's appearance and background consistent with earlier shots.",
+      "generation_status": "planned"
+    },
+    {
+      "shot_id": "S07",
+      "start_seconds": 47,
+      "duration_seconds": 8,
+      "title": "The reunion",
+      "visual_description": "The daughter reaches her mother outside the home. They greet one another warmly; the daughter still has her schoolbag.",
+      "camera": "Medium two-shot at eye level; gentle, believable movement.",
+      "audio": {
+        "speaker": "ambience",
+        "amharic": "",
+        "english_subtitle": ""
+      },
+      "continuity": "Both characters must match their approved reference images. Keep the reunion gentle and natural.",
+      "generation_status": "planned"
+    },
+    {
+      "shot_id": "S08",
+      "start_seconds": 55,
+      "duration_seconds": 9,
+      "title": "The question",
+      "visual_description": "The daughter looks up at her mother with sincere curiosity and asks why her mother waits outside every day.",
+      "camera": "Close-up of daughter, then optional reaction cut to mother.",
+      "audio": {
+        "speaker": "daughter",
+        "amharic": "እማዬ፣ ለምንድነው በየቀኑ ከቤት ውጭ የምትጠብቂኝ?",
+        "english_subtitle": "Mother, why do you wait for me outside every day?"
+      },
+      "continuity": "Daughter's face, age, school uniform, and bag must remain consistent.",
+      "generation_status": "planned"
+    },
+    {
+      "shot_id": "S09",
+      "start_seconds": 64,
+      "duration_seconds": 10,
+      "title": "The answer",
+      "visual_description": "The mother looks at her daughter with affection and answers gently. The emotion is conveyed through her eyes and restrained smile.",
+      "camera": "Close-up of mother; hold long enough for the answer to land.",
+      "audio": {
+        "speaker": "mother",
+        "amharic": "ልጄ፣ የትም ብትሄጂ፣ ወደ ቤት ስትመለሺ በፍቅር የሚቀበልሽ ሰው እንዳለ እንድታውቂ ነው።",
+        "english_subtitle": "My daughter, wherever you go, I want you to know that someone will welcome you home with love."
+      },
+      "continuity": "Mother's appearance must match S02, S04, and S06. Avoid exaggerated lip movement if dialogue is added in post.",
+      "generation_status": "planned"
+    },
+    {
+      "shot_id": "S10",
+      "start_seconds": 74,
+      "duration_seconds": 6,
+      "title": "Walking home",
+      "visual_description": "The mother and daughter hold hands and walk toward their home in warm late-afternoon light. End on a gentle, reflective image and fade out.",
+      "camera": "Rear wide shot; slow pull-back or locked-off composition.",
+      "audio": {
+        "speaker": "narrator",
+        "amharic": "አንዳንድ ጊዜ ፍቅር በትልልቅ ቃላት አይገለጽም። በመጠበቅ፣ በመንከባከብና በፈገግታ ይገለጻል። እናት የምትሰጠው ፍቅር እንዲህ ያለ ነው።",
+        "english_subtitle": "Sometimes love is not expressed through big words. It is expressed through waiting, caring, and smiling. This is the kind of love a mother gives."
+      },
+      "continuity": "Both characters retain their references and clothing. End card is added during final assembly, not generated inside the shot.",
+      "generation_status": "planned"
+    }
+  ]
+}

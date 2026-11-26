@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Generated assets and cache
+cache/
+outputs/
+assets/images/
+assets/video/
+assets/narration/
+assets/music/
+
+# Logs
+logs/
+*.log
+
+# Editor
+.vscode/
+# Final exports and temporary processing files
+output/
+temp/
+assets/endcard/
+# Generated media
+assets/images/
+assets/video/
+assets/narration/
+assets/music/
+assets/endcard/
+
+# Keep supporting assets
+!assets/subtitles/
+!assets/fonts/
+# Temporary narration tests
+script/S08_test.txt
+script/S09_test.txt
+src/test_s08.py
+src/test_s09.py

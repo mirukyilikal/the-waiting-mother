@@ -1,0 +1,46 @@
+
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "The Waiting Mother Storyboard",
+  "description": "Validation schema for the film storyboard.",
+  "type": "object",
+  "required": ["shots"],
+  "properties": {
+    "project": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "shots": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "shot_id",
+          "start_seconds",
+          "duration_seconds"
+        ],
+        "properties": {
+          "shot_id": {
+            "type": "string",
+            "pattern": "^S[0-9]{2}$"
+          },
+          "start_seconds": {
+            "type": "number",
+            "minimum": 0
+          },
+          "duration_seconds": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
