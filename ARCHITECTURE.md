@@ -41,7 +41,6 @@ The storyboard helps maintain consistency between the visual scenes and narratio
 
 ## 4. Pipeline Components
 
-### 4.1 Storyboard Validator
 
 ### 4.1 Storyboard Validator
 
