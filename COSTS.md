@@ -2,22 +2,25 @@
 
 ## 1. Overview
 
-This document records the tools and resources used to produce The Waiting Mother.
+This document records the tools, services, and resources used to produce *The Waiting Mother*.
 
-The project used a combination of AI-assisted generation tools, open-source software, and third-party media resources.
+The project combined AI-assisted generation services, open-source software, synthetic narration, and third-party media resources.
+
+The cost information is based on available project records. Where exact expenses or usage charges were not recorded, this document identifies them as unknown rather than estimating them.
 
 ## 2. Tools and Resources
 
-| Tool | Purpose | Cost information |
+| Tool or Service | Purpose | Cost Status |
 |---|---|---|
-| Python | Pipeline development | Free, open-source |
-| FFmpeg | Video editing and processing | Free, open-source |
-| Edge TTS | Amharic synthetic narration | No direct payment recorded |
+| Python 3.11 | Pipeline development | Free and open-source |
+| FFmpeg | Video editing, audio mixing, and processing | Free and open-source |
+| Visual Studio Code | Code editing and project development | No separate payment recorded |
+| Edge TTS | Synthetic Amharic narration | No direct payment recorded |
 | Gemini | AI-assisted image generation | Exact usage cost not recorded |
 | PixVerse | AI video generation | Exact usage cost not recorded |
-| Firefly | AI-assisted visual production | Exact usage cost not recorded |
+| Adobe Firefly | AI-assisted visual production | Exact usage cost not recorded |
 | NiftyVid | AI video generation | Exact usage cost not recorded |
-| Pixabay | Background music | No payment recorded |
+| Pixabay | Background music | No payment recorded; applicable licence conditions should be checked |
 
 ## 3. Development Resources
 
@@ -33,9 +36,16 @@ No separate hardware purchase was recorded for this project.
 
 ## 4. Cost Tracking Limitations
 
-Exact historical costs for AI image and video generation were not recorded consistently.
+Exact historical costs for AI image and video generation were not consistently recorded.
 
-The project also lacks complete historical model-call logs containing model versions, generation parameters, seeds, latency, and cost.
+The project also lacks complete historical generation logs containing all of the following:
+
+- Service and model versions.
+- Generation parameters and seeds, where available.
+- Request latency.
+- Actual usage charges or credit consumption.
+
+Some services may have involved free allowances, credits, subscriptions, or other usage conditions. Their exact historical costs cannot be established from the available records.
 
 Therefore, this document does not claim an exact total production cost.
 
@@ -47,9 +57,12 @@ Future versions of the pipeline should:
 - Track the service and model used.
 - Record generation parameters and seeds when available.
 - Measure request latency.
-- Record actual usage costs when available.
+- Record actual usage costs and credits consumed.
 - Maintain a cumulative production cost report.
+- Preserve relevant licence and subscription information.
 
 ## 6. Conclusion
 
-The project relied heavily on free or no-direct-payment development tools and AI-assisted services. However, exact historical AI generation costs remain undocumented and should not be estimated without reliable usage records.
+The project relied on open-source development tools and several AI-assisted services. Although no separate hardware purchase or direct payment for some resources was recorded, the exact historical cost of AI generation remains unknown.
+
+More systematic cost tracking will make future production runs easier to measure, reproduce, and evaluate.
